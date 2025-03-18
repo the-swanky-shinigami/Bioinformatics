@@ -9,18 +9,18 @@ This script processes a VCF (Variant Call Format) file, ensures all rows have th
 
 Features
 
-Reads a large VCF file without skipping any data.
+* Reads a large VCF file without skipping any data.
 
-Ensures irregular rows with extra/missing columns are properly handled.
+* Ensures irregular rows with extra/missing columns are properly handled.
 
-Identifies unique values in the 20th column.
+* Identifies unique values in the 20th column.
 
-Splits the data into multiple DataFrames based on those values.
+* Splits the data into multiple DataFrames based on those values.
 
-Saves each subset as a new VCF file in a separate folder.
+* Saves each subset as a new VCF file in a separate folder.
 
 Requirements
 
-Python 3.7+
+* Python 3.7+
 
-Pandas
+* Pandas
